@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {},
   },
-  plugins: [require("tailwindcss-react-aria-components")],
+  plugins: [require("tailwindcss-react-aria-components")({ prefix: "rac" })],
 };
 
 export default config;
